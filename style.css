@@ -1,0 +1,337 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+
+}
+.class{
+    background-color: aqua;
+}
+#id{
+    background-color: #f3e30b;
+}
+.head{
+    background-color: blanchedalmond;
+}
+
+/* right,bottom,left,top like this clock*/
+.margin{
+    margin: 100px 100px 100px 100px;
+    background-color: aquamarine;
+}
+
+.padding{
+    background-color: antiquewhite;
+    padding: 50px 50px 50px 50px ;
+}
+.tblr{
+    padding: 20px 30px;
+    background-color: #b8fc0b;
+}
+.common{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.border{
+    border: 50px;
+    background-color: green;
+    border-radius: 52px;
+    text-align: center;
+}
+.font{
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+/* border solid,dashed,dotted */
+.box{
+    
+    text-align: center;
+    background-color: #a23333;
+    margin: 50px 50px ;
+    height: 500px;
+    border: 10px dashed green;
+    border-radius: 100px 10px;
+}
+#top{
+    margin-left: 30px;
+    color: #ffffff;
+    padding-top: 30px;
+    
+}
+.nat{
+    padding-top: 10px;
+    width: 30%;
+    height: 50%;
+    border-radius: 30px 70px;
+}
+span{
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+.text-align{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    
+}
+.tt {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+   
+}
+.tt> a{
+    text-decoration: none;
+    line-height: 10px;
+    letter-spacing: 50px;
+}
+.box-model{
+
+        width: 500px;
+        border: 10px solid green;
+        padding: 50px;
+        margin: 20px;
+        z-index: -1;
+        position: relative;
+
+}
+.box-model img{
+    z-index: -1;
+    position: relative;
+}
+/* Pseudoclass  */
+
+.Pseudoclass>p{
+   background-color: #f3e30b;
+}
+input:focus{
+    
+   
+    border: 1px solid #ff0000;
+}
+.btn{
+    margin-top: 10px;
+    background-color: #bc1d1d;
+    border: none;
+    border-radius: 30px 10px 30px 10px;
+    color: white;
+
+}
+.btn:hover{
+    background-color: green;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.inline-ele{
+    
+    background-color: #cd3c3c;
+}
+.inline-elea{
+    margin-left: 10px;
+   background-color: #080876;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+.inline-elea:visited{
+    color: #0bb716;
+}
+.block-ele{
+    background-color: #5ecd3c;
+}
+h6{
+    font-size: 20px;
+}
+h6:after{
+    content:  " By Mehedi Hasan";
+    font-size: 30px;
+}
+.list-style>ul>li{
+    list-style-type: none;
+}
+.list-style>ul>li:nth-child(2n+1){
+   color: red;
+    font-size: 20px;
+}
+.list-style>ul>li:nth-last-child(3){
+    color: #1b911d;
+     font-size: 20px;
+ }
+ .static{
+    position: static;
+ }
+ .Relative{
+    position: relative;
+    border: 2px solid red;
+    left: 50px;
+    /* right: ;
+    top: 0;
+    bottom: ; */
+    position: a;
+ }
+.relative{
+    position: relative;
+    border: 1px solid #000;
+    width: 500px;
+    height: 300px;
+}
+.Absolute{
+    position: absolute;
+    border: 1px solid #e31414;
+    width: 400px;
+    height: 100px;
+    left: 10px;
+    top: 50px;
+    
+}
+/* positon :sticky scroll */
+.Sticky{
+    text-align: center;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    background-color: rgb(165, 28, 28);
+}
+.fixed{
+   position: fixed;
+    background-color: #0f650f;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #cf370e;
+    color: white;
+    padding: 20px;
+}
+/* Transition */
+.box11{
+
+    width: 100px;
+    height: 80px;
+    background-color: #bc1d1d;
+    border: 5px solid green;
+    color: white;
+    text-align: center;
+}
+.box11:hover{
+    background-color: #000;
+    transition: 0.5s ease 1s;
+}
+.box22{
+    
+    text-align: center;
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+    color: #ffffff;
+    font-size: 50px;
+}
+.outer{
+    transform: scale(0.5) rotate(-50deg);
+    background-color: #008020;
+}
+.inner{
+    transform: scale(0.5) rotate(-20deg);
+    
+}
+.Container{
+    color: #ffffff;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: space-around;
+}
+.flex{
+    text-align: center;
+    
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 3px solid blue ;
+    
+}
+.box33{
+    text-align: center;
+    border: 1px solid green;
+    padding: 10px;
+   
+    
+}
+.grid{
+    
+   display: grid;
+   grid-template-columns: 150px 150px 150px;
+   /* grid-template-columns: repeat(3,150px); */
+   /* grid-gap: 10px; */
+   
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 5px;
+  background-color: #51a261;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: #ffffffcc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+nav{
+    height: 50px;
+    background-color: green;
+    line-height: 30px;
+    font-size: 25px;
+    
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+    
+}
+nav > ul > li {
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+   
+    color: #000;
+    border-radius: 5px 50px;
+    padding: 0;
+}
+nav>ul>li:hover>ul{
+    display: block;
+    background-color: #008020;
+    margin-top: 11px;
+    align-self: center;
+    margin-left: -10px;
+    
+    
+}
+nav li:hover{
+    background-color: blueviolet;
+}
+footer{
+    
+    text-align: center;
+    background-color: blueviolet;
+    color:#ffffff;
+    font-size: 25px;
+}
